@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Warrantree Retailer</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closedDrawer">Closed Drawer</string>
+
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="reenter_password_hint">Re-enter Password</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="aadhar_no">Aadhar No</string>
+    <string name="phone_no">Phone No</string>
+    <string name="email">Email</string>
+    <string name="dob">Date of Birth</string>
+    <string name="pan_no">PAN Number</string>
+    <string name="six_digit_code">Enter six digit code</string>
+    <string name="button_sign_in">Sign In</string>
+    <string name="button_sign_up">Sign Up</string>
+
+    <string name="Rs">\u20B9</string>
+
+</resources>
