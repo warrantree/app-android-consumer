@@ -1,7 +1,20 @@
 <resources>
-    <string name="app_name">Warrantree Retailer</string>
-    <string name="openDrawer">Open Drawer</string>
-    <string name="closedDrawer">Closed Drawer</string>
+    <string name="app_name">Warrantree | Consumer</string>
+    <!--Strings fir navigation drawer-->
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+
+    <string name="congratulations">Congratulations!</string>
+
+    <string name="full_name">Aditya Mishra</string>
+    <string name="validemail">aditya@upscale.in</string>
+
+    <style name="registered_number">+91-9868232278</style>
+
+    <string name="my_actionbar_settings">Settings</string>
+    <string name="my_actionbar_notifications">Notifications</string>
+    <string name="my_actionbar_rate">Rate the App</string>
+    <string name="user_profile">User Profile</string>
 
     <string name="username_hint">Username</string>
     <string name="password_hint">Password</string>
@@ -18,4 +31,12 @@
 
     <string name="Rs">\u20B9</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_registered_products_will_show_up_here">My Registered products will show up here</string>
+    <string name="otp_resend_01">Didn\'t receive OTP? Click here to re-send!</string>
+    <string name="otp_resend_02">Check your number before re-sending OTP</string>
+
+    <!-- TODO: Add Firebase Authentication and handle the instances -->
+    <string name="auth_failed">Authentication failed! Check Details and try again!</string>
 </resources>

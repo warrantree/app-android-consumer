@@ -8,4 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppTheme.TIP_ColorError" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#fcfcfc</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.LargeHintOrange" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">#fb8c00</item>
+        <item name="android:textColorHint">#fb8c00</item>
+    </style>
+
 </resources>

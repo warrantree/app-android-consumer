@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimary">#3f51b5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#00b0ff</color>
+    <color name="colorAccentDark">#0091ea</color>
+    <color name="colorAccentDarker">#009688</color>
 
-    <color name="purple_304ffe">#304ffe</color>
-    <color name="purple_7988ff">#7988ff</color>
-    <color name="purple_4151fd">#4151fd</color>
-    <color name="purple_4151fd_light">#994151fd</color>
-    <color name="purple_242ffd">#242ffd</color>
+    <color name="colorPrimaryBase">#3F51B5</color>
+    <color name="colorPrimaryDarkBase">#303F9F</color>
+    <color name="colorAccentBase">#FF4081</color>
 
+    <color name="red">#ef5350</color>
+    <color name="green">#69f0ae</color>
+    <color name="blue">#42a5f5</color>
 
-    <color name="red">#d94646</color>
+    <color name="login_Primary">#7c4dff</color>
+    <color name="login_PrimaryDark">#651fff</color>
+    <color name="login_Secondary">#ffab40</color>
+    <color name="login_SecondaryDeep">#ff8a65</color>
+    <color name="login_SecondaryforDark">#f06292</color>
+    <color name="login_Tertiary">#8bc34a</color>
+    <color name="login_Accent">#fafafa</color>
+    <color name="login_TextPrimary">#fcfcfc</color>
 
     <color name="white">#FFFFFF</color>
     <color name="white_fcfcfc">#fcfcfc</color>
@@ -23,6 +33,11 @@
     <color name="black_ababab">#ababab</color>
     <color name="black_7d7d7d">#7d7d7d</color>
 
-    <color name="input_register">#e6ffffff</color>
+    <color name="purple_304ffe">#304ffe</color>
+    <color name="purple_7988ff">#7988ff</color>
+    <color name="purple_4151fd">#4151fd</color>
+    <color name="purple_4151fd_light">#994151fd</color>
+    <color name="purple_242ffd">#242ffd</color>
 
+    <color name="input_register">#e6ffffff</color>
 </resources>

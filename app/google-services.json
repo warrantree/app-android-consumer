@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "780113517161",
+    "firebase_url": "https://warrantreeconsumerapp.firebaseio.com",
+    "project_id": "warrantreeconsumerapp",
+    "storage_bucket": "warrantreeconsumerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780113517161:android:14a34c9fb7145959",
+        "android_client_info": {
+          "package_name": "warrantree.upscale.warrantreeconsumer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780113517161-aog9lbqmrh97df5796n4jpr3sjkkl862.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "warrantree.upscale.warrantreeconsumer",
+            "certificate_hash": "d93483f5fd0186f549694709c6b9210cc7ff2c5e"
+          }
+        },
+        {
+          "client_id": "780113517161-l87objh9ukrk0v085pcmna0ajfetvel3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvEifwZTtJo6q46cNEr2JAwkEEqucOHBM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780113517161-l87objh9ukrk0v085pcmna0ajfetvel3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

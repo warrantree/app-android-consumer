@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_servicerequest"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Service Request" />
+        <item
+            android:id="@+id/nav_registered"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Registered Items" />
+        <item
+            android:id="@+id/nav_claims"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Ongoing Claims" />
+        <item
+            android:id="@+id/nav_shared"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Shared Items" />
+        <item
+            android:id="@+id/nav_reminders"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Active Alerts" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Visit Website" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_termsofuse"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Terms of Use" />
+        </menu>
+    </item>
+
+</menu>

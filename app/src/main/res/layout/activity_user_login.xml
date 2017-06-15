@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="warrantree.upscale.warrantreeconsumer.UserLoginActivity">
+
+
+    <view
+        android:id="@+id/login_parent_center"
+        class="android.support.v4.widget.Space"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_parent_center"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_input_box"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        app:srcCompat="@drawable/warrantree_logo" />
+
+    <!--<TextView
+        android:id="@+id/login_header_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_input_box"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="@dimen/units_20"
+        android:fontFamily="casual"
+        android:text="Let's get you started with hassle free living!"
+        android:textSize="30sp"
+        android:textStyle="bold" />-->
+
+    <LinearLayout
+        android:id="@+id/login_input_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dip"
+        android:layout_marginEnd="20dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginStart="20dip"
+        android:background="#f6ffffff"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:padding="16dip">
+
+        <TextView
+            android:id="@+id/login_header_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/units_4"
+            android:fontFamily="casual"
+            android:text="Let's get you started with hassle free living!"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/login_et_usr_mobnum_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/login_et_usr_mobnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Mobile Number"
+                android:inputType="phone"
+                android:hyphenationFrequency="normal"
+                android:textSize="22sp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/login_btn_send_otp"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="buttonOnClick"
+            android:padding="10dip"
+            android:text="Send OTP"
+            android:textSize="24sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/login_et_usr_otp_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#eceff1"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/login_et_usr_otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter the 6-digit OTP"
+                android:inputType="number" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/login_btn_submit_otp"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="buttonOnClick"
+            android:padding="10dip"
+            android:text="Send OTP"
+            android:textColor="#FFF"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/login_tv_otp_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="resendOTP"
+            android:text="@string/otp_resend_01"
+            android:textColor="@color/login_TextPrimary"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_btn_skip_to_home"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="buttonOnClick"
+        android:text="skip to home"
+        android:textColor="@color/colorPrimaryDark" />
+
+</RelativeLayout>
