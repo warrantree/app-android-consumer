@@ -11,6 +11,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import warrantree.upscale.warrantreeconsumer.Fragments.NavDrawerFragment;
+
 public class HomeActivity extends AppCompatActivity {
 
     Intent toSharing, toAddItems, toClaims, toReminders, toRegistered, toServiceRequest, toProfile;

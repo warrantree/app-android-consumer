@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="warrantree.upscale.warrantreeconsumer.NavDrawerFragment">
+    tools:context="warrantree.upscale.warrantreeconsumer.Fragments.NavDrawerFragment">
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -13,6 +13,4 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/navigation_view"
         app:menu="@menu/navigation_drawer_menu"/>
-    <!--app:headerLayout="@layout/navigation_view"
-            app:menu="@menu/navigation_drawer_menu"-->
 </FrameLayout>

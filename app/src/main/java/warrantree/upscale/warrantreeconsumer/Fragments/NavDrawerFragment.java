@@ -1,4 +1,4 @@
-package warrantree.upscale.warrantreeconsumer;
+package warrantree.upscale.warrantreeconsumer.Fragments;
 
 import android.content.Context;
 import android.content.SharedPreferences;

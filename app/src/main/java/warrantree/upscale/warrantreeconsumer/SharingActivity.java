@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import warrantree.upscale.warrantreeconsumer.DataModels.ItemCard;
+import warrantree.upscale.warrantreeconsumer.Fragments.NavDrawerFragment;
 import warrantree.upscale.warrantreeconsumer.RVs.CardAdapter;
 
 public class SharingActivity extends AppCompatActivity {

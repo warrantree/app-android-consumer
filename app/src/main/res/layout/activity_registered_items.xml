@@ -64,7 +64,7 @@
 
     <fragment
         android:id="@+id/frag_nav_drawer"
-        android:name="warrantree.upscale.warrantreeconsumer.NavDrawerFragment"
+        android:name="warrantree.upscale.warrantreeconsumer.Fragments.NavDrawerFragment"
         android:layout_width="240dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
