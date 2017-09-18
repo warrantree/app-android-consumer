@@ -34,7 +34,7 @@ public class UserLoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_login);
 
-        //Linking button to their views
+        /*//Linking button to their views
         loginAct_btn_skiptohome = (Button) findViewById(R.id.login_btn_skip_to_home);
         loginAct_btn_sendOTP = (Button) findViewById(R.id.login_btn_send_otp);
         loginAct_btn_submitOTP = (Button) findViewById(R.id.login_btn_submit_otp);
@@ -53,7 +53,7 @@ public class UserLoginActivity extends AppCompatActivity {
 
         //Linking Buttons to click Listeners
 //        loginAct_btn_sendOTP.setOnClickListener();
-        //Button Kinking Ends Here
+        //Button Kinking Ends Here*/
     }
 
     //All button clicks are handled together in this function
@@ -89,12 +89,12 @@ public class UserLoginActivity extends AppCompatActivity {
                 // TODO: Make elements invisible once OTP based auth is done.
                 //onSubmitOTP();
                 break;
-
+/*
             case R.id.login_btn_skip_to_home:
                 toHome();
                 //startActivity(new Intent(UserLoginActivity.this, HomeActivity.class));
                 // Code for button 2 click
-                break;
+                break;*/
         }
     }
 
