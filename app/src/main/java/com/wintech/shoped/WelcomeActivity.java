@@ -251,7 +251,7 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     public void toHome() {
-        startActivity(new Intent(UserLoginActivity.this, HomeActivity.class));
+        startActivity(new Intent(WelcomeActivity.this, HomeActivity.class));
     }
 }
 }
