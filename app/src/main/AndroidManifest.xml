@@ -14,72 +14,85 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".SplashActivity">
+        <activity android:name="com.wintech.shoped.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UserLoginActivity" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".UserLoginMailActivity" />
-        <activity android:name=".OngoingClaimsActivity"
-            android:parentActivityName="warrantree.upscale.warrantreeconsumer.HomeActivity">
+        <activity android:name="com.wintech.shoped.UserLoginActivity" />
+        <activity android:name="com.wintech.shoped.HomeActivity" />
+        <activity android:name="com.wintech.shoped.UserLoginMailActivity" />
+        <activity
+            android:name="com.wintech.shoped.OngoingClaimsActivity"
+            android:parentActivityName="com.wintech.shoped.HomeActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="warrantree.upscale.warrantreeconsumer.HomeActivity" />
-        </activity>
-        <activity android:name=".SharingActivity"
-            android:parentActivityName="warrantree.upscale.warrantreeconsumer.HomeActivity">
-
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="warrantree.upscale.warrantreeconsumer.HomeActivity" />
-        </activity>
-        <activity android:name=".AddItemsActivity"
-            android:parentActivityName="warrantree.upscale.warrantreeconsumer.HomeActivity">
-
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="warrantree.upscale.warrantreeconsumer.HomeActivity" />
-        </activity>
-        <activity android:name=".RegisteredItemsActivity"
-            android:parentActivityName="warrantree.upscale.warrantreeconsumer.HomeActivity">
-
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="warrantree.upscale.warrantreeconsumer.HomeActivity" />
-        </activity>
-        <activity android:name=".ServiceRequestActivity"
-            android:parentActivityName="warrantree.upscale.warrantreeconsumer.HomeActivity">
-
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="warrantree.upscale.warrantreeconsumer.HomeActivity" />
-        </activity>
-        <activity android:name=".RemindersActivity"
-            android:parentActivityName="warrantree.upscale.warrantreeconsumer.HomeActivity">
-
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="warrantree.upscale.warrantreeconsumer.HomeActivity" />
+                android:value="warrantree.upscale.warrantreeconsumer.com.wintech.shoped.HomeActivity" />
         </activity>
         <activity
-            android:name=".UserProfileActivity"
-            android:parentActivityName="warrantree.upscale.warrantreeconsumer.HomeActivity">
+            android:name="com.wintech.shoped.SharingActivity"
+            android:parentActivityName="com.wintech.shoped.HomeActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="warrantree.upscale.warrantreeconsumer.HomeActivity" />
+                android:value="warrantree.upscale.warrantreeconsumer.com.wintech.shoped.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.wintech.shoped.AddItemsActivity"
+            android:parentActivityName="com.wintech.shoped.HomeActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="warrantree.upscale.warrantreeconsumer.com.wintech.shoped.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.wintech.shoped.RegisteredItemsActivity"
+            android:parentActivityName="com.wintech.shoped.HomeActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="warrantree.upscale.warrantreeconsumer.com.wintech.shoped.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.wintech.shoped.ServiceRequestActivity"
+            android:parentActivityName="com.wintech.shoped.HomeActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="warrantree.upscale.warrantreeconsumer.com.wintech.shoped.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.wintech.shoped.RemindersActivity"
+            android:parentActivityName="com.wintech.shoped.HomeActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="warrantree.upscale.warrantreeconsumer.com.wintech.shoped.HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.wintech.shoped.UserProfileActivity"
+            android:parentActivityName="com.wintech.shoped.HomeActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="warrantree.upscale.warrantreeconsumer.com.wintech.shoped.HomeActivity" />
+        </activity>
+        <activity android:name="com.wintech.shoped.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

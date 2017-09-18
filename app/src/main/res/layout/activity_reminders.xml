@@ -5,7 +5,7 @@
     android:id="@+id/my_drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="warrantree.upscale.warrantreeconsumer.RemindersActivity">
+    tools:context="warrantree.upscale.warrantreeconsumer.com.wintech.shoped.RemindersActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/frag_nav_drawer"
-        android:name="warrantree.upscale.warrantreeconsumer.Fragments.NavDrawerFragment"
+        android:name="com.wintech.shoped.Fragments.NavDrawerFragment"
         android:layout_width="240dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
