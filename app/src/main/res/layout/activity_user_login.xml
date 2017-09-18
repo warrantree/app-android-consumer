@@ -4,31 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context="warrantree.upscale.warrantreeconsumer.UserLoginActivity">
 
 
-    <view
-        android:id="@+id/login_parent_center"
-        class="android.support.v4.widget.Space"
-        android:layout_width="1dp"
-        android:layout_height="1dp"
-        android:layout_centerInParent="true" />
+    <!--    <view
+            android:id="@+id/login_parent_center"
+            class="android.support.v4.widget.Space"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/login_parent_center"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary" />-->
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/login_parent_center"
-        android:layout_alignParentTop="true"
-        android:background="@color/colorPrimary" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
         android:layout_above="@+id/login_input_box"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="10dip"
         android:layout_marginBottom="10dip"
-        app:srcCompat="@drawable/warrantree_logo" />
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/shoped_logo_normal" />
 
     <!--<TextView
         android:id="@+id/login_header_message"
@@ -80,8 +81,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Mobile Number"
-                android:inputType="phone"
                 android:hyphenationFrequency="normal"
+                android:inputType="phone"
                 android:textSize="22sp" />
         </android.support.design.widget.TextInputLayout>
 
@@ -138,15 +139,17 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/login_btn_skip_to_home"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+    <TextView
+        android:id="@+id/login_tv_help"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
         android:onClick="buttonOnClick"
-        android:text="skip to home"
-        android:textColor="@color/colorPrimaryDark" />
+        android:text="Need help?"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
 
 </RelativeLayout>

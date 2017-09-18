@@ -3,18 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bluegradientbox90"
+    android:background="@drawable/bg"
     tools:context="warrantree.upscale.warrantreeconsumer.SplashActivity">
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_marginTop="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
         android:elevation="8dp"
-        android:src="@drawable/warrantree_logo" />
+        android:src="@drawable/shoped_logo_normal" />
 
     <TextView
         android:layout_width="match_parent"
@@ -22,10 +22,11 @@
         android:layout_below="@+id/logo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/units_10"
-        android:text="Warrantree | Consumer"
+        android:text="welcome user"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#eeeeee"
         android:textSize="28sp"
         android:textStyle="bold" />
+
 </RelativeLayout>
